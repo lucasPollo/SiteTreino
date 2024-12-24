@@ -1,0 +1,42 @@
+
+
+.box-1 {
+justify-content: center;
+align-items: center;
+display: grid;
+
+}
+
+.card {
+    margin: 15px;
+    
+}
+.box-2 {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    }
+
+
+.navbar {
+    background-color: #021B33;
+    color: aliceblue;
+}
+
+#txt {
+    color: aliceblue;
+}
+
+.boxMain {
+    background-color: #A9CFE5;
+}
+.card-body {
+    background-color: #021B33;
+}
+.card-text {
+    color: white;
+}
+
+#cardTitulo {
+    color: white;
+}
