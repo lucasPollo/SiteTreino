@@ -5,3 +5,5 @@ function mostrarUltimoDado() {
     // Exibe o último dado no parágrafo com id "resultado"
     document.getElementById("resultado").innerText = "Último dado: " + ultimoDado;
 }
+
+
