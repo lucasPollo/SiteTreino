@@ -17,27 +17,55 @@ display: grid;
     display: grid;
     }
 
+.box-3 {
+        justify-content: center;
+        align-items: center;
+        display: grid;
+}
+   
+.box-4 {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
 
 .navbar {
-    background-color: #021B33;
-    color: aliceblue;
+    background-color: #F7CA77;
+    color: black;
 }
 
 #txt {
-    color: aliceblue;
+    color: black;
 }
 
 .boxMain {
-    background-color: #A9CFE5;
+    background-color: #FCEEDC;
 }
 .card-body {
-    background-color: #021B33;
+    background-color: #F7CA77;
 }
 .card-text {
-    color: white;
+    color: black;
 }
 
 #cardTitulo {
-    color: white;
+    color: black;
 }
 
+
+.box-playlists {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    background-color: rgb(14, 90, 73);
+}
+#box-playlistTxt {
+    background-color: #a9e0c0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#msc {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
