@@ -1,20 +1,33 @@
 
 
+* {
+   
+        font-family: "Merriweather", serif;
+        font-weight: 300;
+        font-style: normal;
+      
+}
+
+
+
 .box-1 {
 justify-content: center;
 align-items: center;
 display: grid;
 
+
 }
 
 .card {
     margin: 15px;
-    
+    box-shadow: 2px 3px 3px black;
 }
 .box-2 {
     justify-content: center;
     align-items: center;
     display: grid;
+    box-shadow: #F7CA77;
+
     }
 
 .box-3 {
@@ -32,12 +45,16 @@ display: grid;
 .navbar {
     background-color: #F7CA77;
     color: black;
+    box-shadow: 2px 3px 3px black;
 }
 
 .cronometro {
     justify-content: center;
     align-items: center;
     display: grid;
+    background-color: #1f1f1ffe;
+    height: 133px;
+    padding: 5px;
 }
 
 #txt {
@@ -69,6 +86,7 @@ display: grid;
     background-color: #a9e0c0;
     margin-top: 10px;
     margin-bottom: 15px;
+    box-shadow: 2px 3px 3px black;
 }
 
 #msc {
