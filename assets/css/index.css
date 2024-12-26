@@ -34,6 +34,12 @@ display: grid;
     color: black;
 }
 
+.cronometro {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+
 #txt {
     color: black;
 }
