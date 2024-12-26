@@ -21,7 +21,15 @@ display: grid;
 .card {
     margin: 15px;
     box-shadow: 2px 3px 3px black;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efeito de transição */
 }
+
+.card:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Intensifica a sombra */
+}
+
 .box-2 {
     justify-content: center;
     align-items: center;
